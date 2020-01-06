@@ -6,6 +6,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<meta name="googlebot" content="index,follow" />
+	<!-- propeller for animeyou.co -->
+	<meta name="propeller" content="f673cb280b7f5690c038c92dee73c495">
 	<?php 
 	$search = array(
       '-',
@@ -115,14 +117,15 @@
 				<script async custom-element="amp-auto-ads" src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js"></script>
 				
                 <!-- Global site tag (gtag.js) - Google Analytics -->
-				<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109063463-7"></script>
+				<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109063463-8"></script>
 				<script>
 				window.dataLayer = window.dataLayer || [];
 				function gtag(){dataLayer.push(arguments);}
 				gtag('js', new Date());
 
-				gtag('config', 'UA-109063463-7');
+				gtag('config', 'UA-109063463-8');
 				</script>
+
 
 				
 				<!-- Safelinku.com Full Page Script Exclude-->
