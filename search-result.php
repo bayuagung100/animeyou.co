@@ -84,7 +84,7 @@ $url3 = strstr($url, '<div id=sct_content class=fl>');
 				} ?>
 
 				<?php
-				$link = 'https://nontonanime.live/search/'.$plus;
+				$link = 'https://animeyou.co/search/'.$plus;
 				if (empty($_GET['page']) or $_GET['page'] == 1 ) { 
 					echo "";
 				}else{ ?>

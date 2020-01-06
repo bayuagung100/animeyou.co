@@ -2,7 +2,7 @@
 <html xmlns="https://www.w3.org/1999/xhtml" lang="id">
 <head>
 
-	<link rel="icon" type="image/png" href="https://nontonanime.live/logo.png">
+	<link rel="icon" type="image/png" href="https://animeyou.co/logo.png">
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<meta name="googlebot" content="index,follow" />
@@ -12,7 +12,7 @@
       '.html'
      );
 	$actual_link = (isset($_SERVER['HTTPS']) ? "https" : "https") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
-	if (strpos($actual_link, 'nontonanime.live/nonton/') or strpos($actual_link, 'nontonanime.live/anime/')) { ?>
+	if (strpos($actual_link, 'animeyou.co/nonton/') or strpos($actual_link, 'animeyou.co/anime/')) { ?>
 	<title>Nonton Anime <?php echo ucwords(str_ireplace($search, ' ', $_GET['video'])); ?> Subtitle Indonesia - NontonAnime</title>
 	<?php }else{ ?>
 	<title>Nonton Anime Subtitle Indonesia Terbaru <?php echo date('Y'); ?> dan Terlengkap full episode - NontonAnime</title>
@@ -22,16 +22,16 @@
 	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,600,600i,700,700i" rel="stylesheet">
 	<link href="/style.min.css" rel="stylesheet" type="text/css" />
 	<link rel="stylesheet" href="https://unpkg.com/flickity@2.0/dist/flickity.css" media="screen">
-	<?php if (strpos($actual_link, 'nontonanime.live/nonton/')) { ?>
+	<?php if (strpos($actual_link, 'animeyou.co/nonton/')) { ?>
 	<link rel="canonical" href="<?php echo $actual_link; ?>">
-	<?php }elseif (strpos($actual_link, 'nontonanime.live/anime/')) { ?>
+	<?php }elseif (strpos($actual_link, 'animeyou.co/anime/')) { ?>
 	<link rel="canonical" href="<?php echo $actual_link; ?>">
 	<?php }else{ ?>
 	<link rel="canonical" href="<?php echo $actual_link; ?>">
 	<?php } ?>
 		<meta name="Author" content="Nonton Anime">
 
-	<?php if (strpos($actual_link, 'nontonanime.live/nonton/')) { 
+	<?php if (strpos($actual_link, 'animeyou.co/nonton/')) { 
 		$descrrr = potong($url2, '<div class="infobox">', '<div class="inr">');
 		$titleee = potong($descrrr, '<h3>', '</h3>');
 		$kettt = potong($descrrr, '<div class="seno">', '</div>'); 
@@ -46,7 +46,7 @@
 		<?php } ?>
 		<meta name="Keywords" content="<?php $titlee = str_ireplace('-', ' ', $_GET['video']); echo str_ireplace('.html', '', $titlee); ?>, Nonton Anime 21, NontonAnime21, Nonton Anime terbaru dan terlengkap, Nonton Anime, Anime Indo, Nonton Anime Subtitle Indonesia, Download Anime, Situs Anime online gratis, Download Anime Subtitle Indonesia, Animeindoweb, Film Anime Terbaru 2018, Nonton Anime Indo terbaru, Nonton anime samehadaku gratis, Movieu Online, Layarkacaxxi, Streaming anime Subtitle Indonesia, Nonton Naruto Subtitle Indonesia, Nonton Anime Online, Nonton Anime Favorit, Streaming Anime, Streaming Anime Subtitle indonesia, Nonton Streaming Anime, Layarkaca21 Cinema indonesia, Nonton Film Anime, Nonton Film Anime Subtitle Indonesia, Nonton Anime Web, Video Naruto, Nonton Anime Naruto, Download Film, LK21 Film Download, Animeindo, Situs Nonton Anime Subtitle Indonesia, Anime Subtitle Indonesia terbaru 2017, Nonton Naruto Subtitle Indonesia, Nonton Naruto Shippuden, Nonton Film Boruto, Nonton Boruto Full Episode, Nonton Anime One Piece, Nonton Anime action gratis, Nonton Anime Subtitle Indonesia Terlengkap, Nonton Anime Subtitle Indonesia One Punch Man, nonton anime Subtitle Indonesia dragon ball super, Layarkaca21, icinema3satu, Anime Spring Subtitle Indonesia, Daftar Anime Samehadaku, Samehadaku Net, Anime Subtitle Indonesia Samehadaku">
 		
-			<?php if (strpos($actual_link, 'nontonanime.live/nonton/')) { 
+			<?php if (strpos($actual_link, 'animeyou.co/nonton/')) { 
 			$descrrr = potong($url2, '<div class="infobox">', '<div class="inr">');
 			$titleee = potong($descrrr, '<h3>', '</h3>'); ?>
 			<meta property="og:title" content="Nonton Anime <?php echo $titleee; ?> Subtitle Indonesia - Nontonanime" />
@@ -55,15 +55,15 @@
 			<?php } ?>
 			<meta property="og:locale" content="id_ID" />
 			
-			<?php if (strpos($actual_link, 'nontonanime.live/nonton/')) { ?>
+			<?php if (strpos($actual_link, 'animeyou.co/nonton/')) { ?>
 			<meta property="og:url" content="<?php echo $actual_link; ?>"/>
-			<?php }elseif (strpos($actual_link, 'nontonanime.live/anime/')) { ?>
+			<?php }elseif (strpos($actual_link, 'animeyou.co/anime/')) { ?>
 			<meta property="og:url" content="<?php echo $actual_link; ?>"/>
 			<?php }else{ ?>
 			<meta property="og:url" content="<?php echo $actual_link; ?>"/>
 			<?php } ?>
 
-			<?php if (strpos($actual_link, 'nontonanime.live/nonton/')) { 
+			<?php if (strpos($actual_link, 'animeyou.co/nonton/')) { 
 				$descrrr = potong($url2, '<div class="infobox">', '<div class="inr">');
 				$titleee = potong($descrrr, '<h3>', '</h3>');
 				$kettt = potong($descrrr, '<div class="seno">', '</div>'); 
@@ -76,9 +76,9 @@
 				<meta property="og:description" content="NontonAnime - Web Nonton Anime Subtitle Indonesia Terbaru <?php echo date('Y'); ?> dan Terlengkap full episode. Streaming Anime Online Terlengkap. Nonton Online Streaming Film Anime terbaik terlengkap. Download Film Anime Terbaru. Gratis." />
 				<?php } ?>
 				<?php if ($thumb == '') {
-					$covershare = 'https://nontonanime.live/cover.png';
+					$covershare = 'https://animeyou.co/cover.png';
 				}else{
-					$covershare = 'https://nontonanime.live/cover.png';
+					$covershare = 'https://animeyou.co/cover.png';
 				} ?>
 				<meta property="og:image" content="<?php echo $covershare; ?>"/>
 				<meta property="og:site_name" content="Nonton Anime" />
@@ -87,13 +87,13 @@
 					{
 						"@context": "https://schema.org",
 						"@type": "WebSite",
-						"url": "https://nontonanime.live",
+						"url": "https://animeyou.co",
 						"name": "NontonAnime",
 						"alternateName": "Nonton Anime",
 						"potentialAction": 
 						{
 							"@type": "SearchAction",
-							"target": "https://nontonanime.live/search/{q}",
+							"target": "https://animeyou.co/search/{q}",
 							"query-input": "required name=q"
 						}
 					}
@@ -129,7 +129,7 @@
 				<!-- <script type="text/javascript">
 					var go_url = 'https://idsly.bid/';
 					var api = '2be5b2c519fd1c34798c58211b1f2efb3169932c';
-					var shorten_exclude = ['nontonanime.live', 'www.dmca.com', 'dolohen.com','www.hoki228.com','www.pasaranqq.com',
+					var shorten_exclude = ['animeyou.co', 'www.dmca.com', 'dolohen.com','www.hoki228.com','www.pasaranqq.com',
 					'www.raja111.com','bit.ly','www.11juni.org','rumahceme.com','www.suhubl.com','www.pasaranindo.com','jasaqq88.com',
 					'bandarqq1.com']; 
 				</script>
@@ -198,7 +198,7 @@
 
 				<!-- <div class="col-sm-12 text-center potong" style="margin-top: 10px">
 					<a href="http://bit.ly/306QG0z" target="_blank">
-						<img style="width:1070px; height:90px;"title="CMD368 Situs Judi Online, Judi Bola, Domino Qiu Qiu, Daftar Judi Bola, Agen Judi Bola Terpercaya" src="https://nontonanime.live/ads/banner/Web-Blog-Banner-1070x90.gif" >
+						<img style="width:1070px; height:90px;"title="CMD368 Situs Judi Online, Judi Bola, Domino Qiu Qiu, Daftar Judi Bola, Agen Judi Bola Terpercaya" src="https://animeyou.co/ads/banner/Web-Blog-Banner-1070x90.gif" >
 				  </a> 
 				</div> -->
 			</div>

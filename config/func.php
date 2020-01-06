@@ -202,7 +202,7 @@ curl_close($data);
 return $hasil;
 } 
 $spath ='http://animeindo.moe/';
-$dpath ='https://nontonanime.live/';
+$dpath ='https://animeyou.co/';
 $fp = 'https://www.facebook.com/youtubemusikclub/' ; 
 $namaFp ='Nonton Anime 21';
 

@@ -16,7 +16,7 @@ foreach ($xml->sitemap as $val) {
     $url = $val->loc;
     $url = str_replace("genres", "genre", $url);
     $url = str_replace("&", "&amp;", $url);
-    $url = str_replace("https://animeindo.net", "https://nontonanime.live", $url);
+    $url = str_replace("https://animeindo.net", "https://animeyou.co", $url);
     $date = $val->lastmod;
     $freq = $val->changefreq;
     $pri = $val->priority;

@@ -31,7 +31,7 @@ echo '<?xml version="1.0" encoding="UTF-8"?>
 
         $url = str_replace("nonton/category/uncategorized", "", $url);
         $url = str_replace("&", "&amp;", $url);
-        $url = str_replace("https://animeindo.net", "https://nontonanime.live", $url);
+        $url = str_replace("https://animeindo.net", "https://animeyou.co", $url);
         $url = explode(".html", $url);
         $url = $url[0];
         echo $url;
