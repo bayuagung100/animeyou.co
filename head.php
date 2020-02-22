@@ -10,6 +10,7 @@
 	<meta name="propeller" content="f673cb280b7f5690c038c92dee73c495">
 	<meta name="pushsdk" content="e98525263e088d3597430fb050e46fe2">
 	<meta name="clckd" content="4cfcd66c1b6af666a8fb4a7947be8ce9" />
+	<meta name="adz2younet-site-verification" content="61c4b5991b2f5b755ddfe23731289d27">
 	<?php 
 	$search = array(
       '-',
